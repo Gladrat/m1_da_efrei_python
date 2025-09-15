@@ -2,14 +2,22 @@ import hashlib
 import string
 import itertools
 
+
 def md5_str(texte: str) -> int:
     return hashlib.md5(texte.encode("utf-8")).hexdigest()
 
-print(md5_str("mon secret"))
 
-# Alphabet : majuscules + minuscules
-alphabet = string.ascii_letters  # 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+alphabet = string.ascii_letters
 
-# Générer toutes les combinaisons de longueur 3
-for combo in itertools.product(alphabet, repeat=3):
-    print("".join(combo))
+with open("./password.txt", "w") as file:
+    for combo in itertools.product(alphabet, repeat=3):
+        line = f"{md5_str("".join(combo))}:{"".join(combo)}\n"
+        file.write(line)
+
+# 1. génère le hash md5 d'un texte
+
+print(md5_str("995"))
+
+# chaine (3 reduce) : aaa
+
+    # hash final : 2bcab9d935d219641434683dd9d18a03
