@@ -14,10 +14,7 @@ with open("./password.txt", "w") as file:
         line = f"{md5_str("".join(combo))}:{"".join(combo)}\n"
         file.write(line)
 
-# 1. génère le hash md5 d'un texte
-
 print(md5_str("995"))
 
 # chaine (3 reduce) : aaa
-
     # hash final : 2bcab9d935d219641434683dd9d18a03
