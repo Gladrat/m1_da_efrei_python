@@ -45,4 +45,4 @@
 
 ## Exercice 9: Identification des Opportunités de Bundle
 
-- Identifiez les mois où au moins trois produits ont des ventes supérieures à leur moyenne respective. Ces mois pourraient indiquer des opportunités pour créer des bundles de produits pour stimuler les ventes.
+- Identifiez les mois où au moins trois produits ont des ventes supérieures à leur moyenne respective. Ces mois pourraient indiquer des opportunités pour créer des bundles de produits pour stimuler les ventes. 
