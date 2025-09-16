@@ -1,5 +1,5 @@
 ,customer_id,country,gender,age,purchase_amount,payment
-0,1,France,Male,44,74.14,cb
+0,1,france,Male,44,74.14,cb
 1,2,France,Female,18,43.38,cash
 2,3,France,Male,16,24.8,cb
 3,4,France,Female,57,113.53,paypal
