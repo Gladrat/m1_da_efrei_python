@@ -88,6 +88,7 @@ Vous allez produire un **rapport d’analyse des résultats** afin de comparer l
 
 Créez un dépôt Github contenant :
 
+0. **Script de scraping**
 1. **Dataset brut** (`questions_raw.csv`)
 2. **Dataset enrichi** (`benchmark_results.csv`)
 3. **Notebook d’analyse** (`benchmark_analysis.ipynb`)
