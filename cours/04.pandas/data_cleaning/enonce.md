@@ -5,7 +5,7 @@ Le pôle marketing vous a confié un jeu de données clients (`us_customers.csv`
 # 🛠️ Contraintes techniques
 
 - Utilisez une version optimisée et moderne des instructions Pandas (regex, etc.)
-- Les boucles sont interdites
+- Les boucles **python** sont interdites
 
 # 🎯 Objectifs
 
