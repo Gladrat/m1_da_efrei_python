@@ -1,0 +1,121 @@
+{
+  "order": {
+    "id": "CMD-2025-001",
+    "customer": {
+      "id": "CUST-4521",
+      "profile": {
+        "personalInfo": {
+          "name": "Jean Dupont",
+          "contact": {
+            "email": "jean.dupont@example.com",
+            "phone": "+33 6 12 34 56 78"
+          },
+          "address": {
+            "billing": {
+              "street": "12 rue des Lilas",
+              "city": "Paris",
+              "zipcode": "75010",
+              "country": "France"
+            },
+            "shipping": {
+              "street": "15 avenue de Lyon",
+              "city": "Lyon",
+              "zipcode": "69003",
+              "country": "France"
+            }
+          }
+        }
+      }
+    },
+    "cart": {
+      "items": [
+        {
+          "id": "P-101",
+          "name": "Ordinateur Portable",
+          "details": {
+            "category": "Informatique",
+            "specs": {
+              "brand": "Lenovo",
+              "model": "ThinkPad X1",
+              "features": {
+                "cpu": "Intel i7",
+                "ram": "16GB",
+                "storage": {
+                  "type": "SSD",
+                  "capacity": "512GB"
+                }
+              }
+            }
+          },
+          "price": 1299.99,
+          "quantity": 1
+        },
+        {
+          "id": "P-102",
+          "name": "Souris sans fil",
+          "details": {
+            "category": "Accessoires",
+            "specs": {
+              "brand": "Logitech",
+              "model": "MX Master 3S",
+              "features": {
+                "color": "Noir",
+                "connectivity": "Bluetooth"
+              }
+            }
+          },
+          "price": 99.99,
+          "quantity": 2
+        },
+        {
+          "id": "P-103",
+          "name": "Casque Audio",
+          "details": {
+            "category": "Audio",
+            "specs": {
+              "brand": "Sony",
+              "model": "WH-1000XM5",
+              "features": {
+                "noise_cancelling": true,
+                "wireless": true,
+                "battery": {
+                  "type": "Li-ion",
+                  "autonomy": "30h"
+                }
+              }
+            }
+          },
+          "price": 349.99,
+          "quantity": 1
+        }
+      ]
+    },
+    "payment": {
+      "method": "Carte Bancaire",
+      "transaction": {
+        "id": "TX-99887",
+        "gateway": "Stripe",
+        "status": "Confirmed"
+      }
+    },
+    "delivery": {
+      "carrier": "Colissimo",
+      "tracking": {
+        "number": "FR1234567890",
+        "status": "En transit",
+        "history": [
+          {
+            "date": "2025-09-15",
+            "location": "Paris",
+            "status": "Pris en charge"
+          },
+          {
+            "date": "2025-09-16",
+            "location": "Lyon",
+            "status": "En transit"
+          }
+        ]
+      }
+    }
+  }
+}
